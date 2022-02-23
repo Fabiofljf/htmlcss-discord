@@ -26,6 +26,15 @@
     background-color: aqua;
 }
 
+#debug .col_15{
+    height: 100%;
+    background-color: lightgrey;
+}
+
+#debug .col_70{
+    height: 100%;
+}
+
 #debug #text_header{
     height: 40%;
     background-color: aqua;
@@ -114,6 +123,19 @@
 #menu{
     width: 75%;
     margin: 0 auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col_15{
+    width: 15%;
+    float: left;
+}
+
+.col_70{
+    width: 70%;
+    float: left;
 }
 
 
