@@ -346,6 +346,16 @@ img{
     height: 600px;
 }
 
+#img_third_row{
+    background-image: url(../img/stars.svg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#img_third_row h2{
+    text-align: center;
+}
 /********* FOOTER ********/
 
 #first_row_footer, #second_row_footer{
