@@ -15,6 +15,7 @@
 img{
     max-width: 100%;
 }
+
 /********* DEBUG ********/
 
 #debug .container_big{
@@ -265,6 +266,30 @@ img{
 .col_small{
     width: 30%;
     float: left;
+}
+
+/* first row, first block */
+
+.col_big img{
+    padding: 100px;
+}
+
+.text_block_one{
+    padding: 130px 130px 0 130px;
+}
+
+.text_block_one h2, p{
+    color: black
+}
+
+.text_block_one h2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text_block_two{
+    padding: 15px 60px;
 }
 
 /* this is are generic rows of fourth cointainer */
