@@ -330,6 +330,22 @@ img{
     margin: 0 auto;
 }
 
+#text_fourth_block h2, p{
+    text-align: center;
+}
+
+#text_fourth_block h2{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#second_col{
+    background-image: url("../img/item4-big.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
 /********* FOOTER ********/
 
 #first_row_footer, #second_row_footer{
