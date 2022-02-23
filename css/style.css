@@ -19,38 +19,65 @@
     margin-bottom: 20px;
 }
 
-/* debug of first container */
+/* debug of header */
 
 #debug #menu{
-    width: 75%;
     height: 10%;
-    margin: 0 auto;
     background-color: aqua;
 }
 
 #debug #text_header{
-    width: 50%;
     height: 40%;
-    margin: 0 auto;
     background-color: aqua;
 }
 
-#debug #first_row{
-    width: 85%;
+/* debug of first, second and third container */
+
+#debug .first_row_big{
     height: 100%;
     background-color: brown;
 }
 
 #debug .col_big{
-    width: 70%;
     height: 100%;
     background-color: green;
 }
 
 #debug .col_small{
-    width: 30%;
     height: 100%;
     background-color: yellow;
+}
+
+/* debug fourth container */
+
+#debug #first_row_fourth{
+    height: 15%;
+    background-color: yellow;
+}
+
+#debug #second_row_fourth{
+    height: 60%;
+    background-color: green;
+}
+
+#debug #third_row_fourth{
+    height: 25%;
+    background-color: red;
+}
+
+#debug #first_col{
+    background-color: bisque;
+    height: 100%;
+}
+
+#debug #second_col{
+    background-color: purple;
+    height: 100%;
+}
+
+#debug #third_col{
+    background-color: burlywood;
+    height: 100%;
 }
 
 /********* UTILITY ********/
@@ -61,7 +88,15 @@
 
 /********* HEADER ********/
 
+#menu{
+    width: 75%;
+    margin: 0 auto;
+}
+
+
 #text_header{
+    width: 50%;
+    margin: 0 auto;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -70,7 +105,10 @@
 
 /********* MAIN ********/
 
-#first_row{
+/* this is are generic big rows of first, second and third coitainers */
+
+.first_row_big{
+    width: 85%;
     margin: 0 auto;
     content: "";
     display: table;
@@ -78,11 +116,30 @@
 }
 
 .col_big{
+    width: 70%;
     float: left;
 }
 
 .col_small{
+    width: 30%;
     float: left;
+}
+
+/* this is are generic rows of fourth cointainer */
+
+#first_col{
+    width: 65%;
+    margin: 0 auto;
+}
+
+#debug #second_col{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#debug #third_col{
+    width: 50%;
+    margin: 0 auto;
 }
 
 /********* FOOTER ********/
