@@ -1,6 +1,29 @@
+/******** COMMON RULES ********/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+/********* DEBUG ********/
+
+#debug .container_big{
+    height: 600px;
+    background-color: gray;
+}
+
+/* debug of first container */
+
+#debug #menu{
+    
+}
+
+/********* UTILITY ********/
+
+/********* HEADER ********/
+
+/********* MAIN ********/
+
+/********* FOOTER ********/
