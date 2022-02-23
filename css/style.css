@@ -7,6 +7,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.container_big{
+    position: relative;
+}
+
 /********* DEBUG ********/
 
 #debug .container_big{
@@ -31,6 +35,24 @@
     background-color: aqua;
 }
 
+#debug #first_row{
+    width: 85%;
+    height: 100%;
+    background-color: brown;
+}
+
+#debug .col_big{
+    width: 70%;
+    height: 100%;
+    background-color: green;
+}
+
+#debug .col_small{
+    width: 30%;
+    height: 100%;
+    background-color: yellow;
+}
+
 /********* UTILITY ********/
 
 :root{
@@ -38,10 +60,6 @@
 }
 
 /********* HEADER ********/
-
-.container_big{
-    position: relative;
-}
 
 #text_header{
     position: absolute;
@@ -51,5 +69,20 @@
 }
 
 /********* MAIN ********/
+
+#first_row{
+    margin: 0 auto;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col_big{
+    float: left;
+}
+
+.col_small{
+    float: left;
+}
 
 /********* FOOTER ********/
