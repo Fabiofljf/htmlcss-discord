@@ -1,5 +1,4 @@
-/******** COMMON RULES ********/
-
+/*************** COMMON RULES *************/
 *{
     margin: 0;
     padding: 0;
@@ -7,132 +6,239 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.container_big{
+.blocks{
     position: relative;
-    height: 700px;
+}
+
+#special_blocks{
+    background-color: var(--second_color);
+    height: 500px;
+}
+
+#special_blocks_tecnologia{
+    background-color: var(--second_color);
+    height: 800px;
+}
+
+#footer_blocks{
+    position: relative;
+    height: 500px;
 }
 
 img{
     max-width: 100%;
 }
 
-/********* DEBUG ********/
-
-#debug .container_big{
-    background-color: gray;
-    margin-bottom: 20px;
+#site_main > .blocks{
+    margin-top: 50px;
 }
 
-/* debug of header */
+#site_main > #special_blocks{
+    margin-top: 50px;
+}
 
+/*************** DEBUG ***************/
+/****** debug generic ******/
+#debug .blocks{
+    background-color: gray;
+    height: 700px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+/****** debug of header *****/
 #debug #menu{
     height: 10%;
     background-color: aqua;
+    border: 1px solid black;
 }
 
 #debug .col_15{
     height: 100%;
-    background-color: lightgrey;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
 #debug .col_70{
     height: 100%;
+    border: 1px solid black;
 }
 
-#debug #text_header{
+#debug #central_container{
     height: 40%;
     background-color: aqua;
+    border: 1px solid black;
 }
 
-#debug #barra_action{
-    background-color: red;
+#debug #text_central_container{
+    height: 40%;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
-/* debug of main */
-/* debug of first, second and third container - MAIN */
+#debug #container_action{
+    background-color: aqua;
+    border: 1px solid black;
+}
 
-#debug .first_row_big{
+/****** debug of main ******/
+#debug .info{
     height: 100%;
-    background-color: brown;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
-#debug .col_big{
+#debug .col_lg{
     height: 100%;
-    background-color: green;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
-#debug .col_small{
+#debug .col_s{
     height: 100%;
-    background-color: yellow;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
-/* debug fourth container - MAIN */
-
-#debug #first_row_fourth{
+#debug #prima_riga{
     height: 15%;
-    background-color: yellow;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
-#debug #second_row_fourth{
+#debug #col_l{
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#debug #seconda_riga{
     height: 60%;
-    background-color: green;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
-#debug #third_row_fourth{
+#debug #col_xl{
+    height: 100%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#debug #terza_riga{
     height: 25%;
-    background-color: red;
-}
-
-#debug #first_col{
-    background-color: bisque;
-    height: 100%;
-}
-
-#debug #second_col{
-    background-color: purple;
-    height: 100%;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
 #debug #third_col{
-    background-color: burlywood;
     height: 100%;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
-/* debug of footer */
-
-#debug #first_row_footer{
-    height: 75%;
-    background-color: cadetblue;
+/****** debug of footer ******/
+#debug #footer_blocks{
+    background-color: gray;
+    margin-bottom: 20px;
 }
 
-#debug #second_row_footer{
-    height: 25%;
-    background-color: rgb(44, 145, 113);
+#debug #riga_footer{
+    height: 500px;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
 #debug #col_25{
-    height: 100%;
-    background-color: darkblue;
+    height: 250px;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
 #debug #col_75{
-    height: 100%;
-    background-color: darkgoldenrod;
+    height: 250px;
+    background-color: aqua;
+    border: 1px solid black;
 }
 
-/********* UTILITY ********/
+#debug #col_100{
+    height: 250px;
+    background-color: aqua;
+    border: 1px solid black;
+}
 
+/*************** UTILITY ***************/
 :root{
-
+    --first_color: white;
+    --second_color: #F6F6F6;
+    --white: white;
+    --text_dark: #23272A;
+    --purple: #8EA1E1;
 }
 
-/********* HEADER ********/
-
-.container_big img{
-
+.width15{
+    width: 15%;
 }
 
-/* central menu */
+.width25{
+    width: 25%;
+}
+
+.width30{
+    width: 30%;
+}
+
+.width50{
+    width: 50%;
+}
+
+.width65{
+    width: 65%;
+}
+
+.width70{
+    width: 70%;
+}
+
+.width75{
+    width: 75%;
+}
+
+.width85{
+    width: 85%;
+}
+
+.width100{
+    width: 100%;
+}
+
+.float{
+    float: left;
+}
+
+.display{
+    display: inline-block;
+}
+
+.margin_auto{
+    margin: 0 auto;
+}
+
+.barra_action{
+    padding: 0.7rem;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*************** HEADER ***************/
+/* barra del menu */
 #menu{
     width: 75%;
     margin: 0 auto;
@@ -144,21 +250,12 @@ img{
     left: 12.5%;
 }
 
-/* coloumn of left */
-.col_15{
-    width: 15%;
-    float: left;
-}
-
+/* colonna di sx */
 .col_15 img{
-    margin-top: 15px;
+    padding: 15px;
 }
 
-/* central column */
-.col_70{
-    width: 70%;
-    float: left;
-}
+/* colonna centrale */
 #navigator{
     text-align: center;
     margin: 20px;
@@ -167,27 +264,27 @@ img{
 #navigator a{
     margin: 25px;
     text-decoration: none;
-    color: white;
-    font-size: 0.8rem;
+    color: var(--white);
+    font-size: 16px;
 }
 
-/* column of right */
+/* colonna di dx */
 #menu_action{
-    margin: 20px;
+    margin: 20px ;
 }
 
 #menu_action a{
     margin: 70px;
     padding: 0.7rem;
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 14px;
     text-decoration: none;
-    color: black;
-    background-color: white;
+    color: transparent;
+    background-color: var(--white);
 }
 
-/* Central text */
-#text_header{
+/* contenitore centrale dell'header */
+#central_container{
     width: 50%;
     margin: 0 auto;
     position: absolute;
@@ -196,167 +293,110 @@ img{
     transform: translate(-50%, -50%);
 }
 
-#text_menu{
-    margin-bottom: 30px;
-}
-
-#text_menu h2, p{
+/* testo contenitore centrale dell'header */
+#text_central_container > h2{
     text-align: center;
-    color: white;
+    color: var(--white);
+    font-size: 51px;
+    font-weight: bold;
 }
 
-#text_menu > h2{
-    font-size: 3.5rem;
-    margin-bottom: 20px;
+#text_central_container > p{
+    text-align: center;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
 }
 
-#text_menu > p{
-    font-size: 1rem;
-}
 /* barra action */
-#barra_action{
-    width: 50%;
-    margin: 0 auto;
+#container_action{
+    margin-top: 40px;
 }
 
-#text_action_one{
-    display: inline-block;
+#barra_action_one a{
+    color: var(--text_dark);
+    background-color: var(--white);
 }
 
-#text_action_one a{
-    padding: 0.7rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: #23272A;
-    background-color: white;
+#barra_action_two a{
+    color: var(--white);
+    background-color: var(--text_dark);
 }
 
-#text_action_two{
-    display: inline-block;
-    margin-left: 78px;
-}
-
-#text_action_two a{
-    padding: 0.7rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: white;
-    background-color: #23272A;
-}
-
-/********* MAIN ********/
-
-/* this is are generic big rows of first, second and third coitainers */
-
-.first_row_big{
+/*************** MAIN ***************/
+/* info */
+.info{
     width: 85%;
-    margin: 0 auto;
-    content: "";
-    display: table;
-    clear: both;
 }
 
-.col_big{
-    width: 70%;
-    float: left;
+.col_lg img{
+    padding: 120px;
 }
 
-.col_small{
-    width: 30%;
-    float: left;
+.text_col_s{
+    padding: 0 80px;
+    margin-top: 150px;
 }
 
-/* first row, first block */
-
-.col_big img{
-    padding: 100px;
+.text_col_s h2{
+    color: var(--text_dark);
+    font-size: 44px;
+    font-weight: bold;
 }
 
-.text_block_one{
-    padding: 130px 80px 0 80px;
+.text_col_s p{
+    color: var(--text_dark);
+    font-size: 18px;
 }
 
-.text_block_one h2, p{
-    color: black
+/* dove */
+.special_img{
+    color: var(--second_color);
 }
 
-.text_block_one h2{
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+.rot{
+    transform: rotate(180deg);
 }
 
-.text_block_two{
-    padding: 15px 60px;
-}
-
-/* first row, second block */
-.img{
-    background-image: url("../img/wave1.jpg");
-    background-repeat: no-repeat;
-    background-size: 130% 50%;
-}
-
-#text_block_one_dif{
-    padding: 130px 40px 0 40px;
-}
-
-#text_block_one_dif h2{
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-#text_block_two_dif{
-    padding: 15px 40px;
-}
-
-/* this is are generic rows of fourth cointainer */
-
-#first_col{
-    width: 65%;
-    margin: 0 auto;
-}
-
-#debug #second_col{
-    width: 75%;
-    margin: 0 auto;
-}
+/* tecnologia */
 
 #debug #third_col{
     width: 50%;
     margin: 0 auto;
 }
 
-#text_fourth_block h2, p{
+
+#text_col_l > h2{
     text-align: center;
+    color: var(--text_dark);
+    font-size: 44px;
+    font-weight: bold;
 }
 
-#text_fourth_block h2{
-    font-size: 3rem;
-    margin-bottom: 15px;
+#text_col_l > p{
+    text-align: center;
+    color: var(--text_dark);
+    font-size: 18px;
 }
-
-#second_col{
-    background-image: url("../img/item4-big.svg");
+    
+#col_xl img{
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
 }
 
-#img_third_row{
+#img_stars{
     background-image: url(../img/stars.svg);
     height: 100px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#img_third_row h2{
+#img_stars h2{
     text-align: center;
-    padding: 45px;
-    font-size: 1.7rem;
+    color: var(--text_dark);
+    font-size: 44px;
+    font-weight: bold;
 }
 
 #text_action_fourth_block a{
@@ -368,24 +408,4 @@ img{
     background-color: #8EA1E1;
     margin-left: 42%;
 }
-
-/********* FOOTER ********/
-
-#first_row_footer, #second_row_footer{
-    width: 85%;
-    margin: 0 auto;
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#col_25{
-    width: 25%;
-    float: left;
-}
-
-#col_75{
-    width: 75%;
-    float: left;
-}
-
+/*************** FOOTER ***************/
