@@ -6,35 +6,39 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    width: 1440px;
+}
+
 .blocks{
     position: relative;
 }
 
 #special_blocks{
     background-color: var(--second_color);
-    height: 500px;
 }
 
 #special_blocks_tecnologia{
     background-color: var(--second_color);
-    height: 800px;
 }
 
 #footer_blocks{
     position: relative;
     height: 500px;
+    margin-top: 100px;
+    background-color: var(--text_dark);
 }
 
 img{
     max-width: 100%;
 }
 
-#site_main > .blocks{
+#site_main > #special_blocks{
     margin-top: 50px;
 }
 
-#site_main > #special_blocks{
-    margin-top: 50px;
+a{
+    text-decoration: none;
 }
 
 /*************** DEBUG ***************/
@@ -148,13 +152,13 @@ img{
     border: 1px solid black;
 }
 
-#debug #col_25{
+#debug #col_40{
     height: 250px;
     background-color: aqua;
     border: 1px solid black;
 }
 
-#debug #col_75{
+#debug #col_60{
     height: 250px;
     background-color: aqua;
     border: 1px solid black;
@@ -179,6 +183,10 @@ img{
     width: 15%;
 }
 
+.width20{
+    width: 20%;
+}
+
 .width25{
     width: 25%;
 }
@@ -187,8 +195,16 @@ img{
     width: 30%;
 }
 
+.width40{
+    width: 40%;
+}
+
 .width50{
     width: 50%;
+}
+
+.width60{
+    width: 60%;
 }
 
 .width65{
@@ -201,6 +217,10 @@ img{
 
 .width75{
     width: 75%;
+}
+
+.width80{
+    width: 80%;
 }
 
 .width85{
@@ -235,6 +255,10 @@ img{
     content: "";
     display: table;
     clear: both;
+}
+
+.relative{
+    position: relative;
 }
 
 /*************** HEADER ***************/
@@ -274,12 +298,11 @@ img{
 }
 
 #menu_action a{
-    margin: 70px;
     padding: 0.7rem;
     border-radius: 20px;
     font-size: 14px;
     text-decoration: none;
-    color: transparent;
+    color: blue;
     background-color: var(--white);
 }
 
@@ -310,7 +333,7 @@ img{
 
 /* barra action */
 #container_action{
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 #barra_action_one a{
@@ -321,6 +344,7 @@ img{
 #barra_action_two a{
     color: var(--white);
     background-color: var(--text_dark);
+    margin-left: 20px;
 }
 
 /*************** MAIN ***************/
@@ -334,7 +358,7 @@ img{
 }
 
 .text_col_s{
-    padding: 0 80px;
+    padding: 0 25px;
     margin-top: 150px;
 }
 
@@ -365,7 +389,6 @@ img{
     margin: 0 auto;
 }
 
-
 #text_col_l > h2{
     text-align: center;
     color: var(--text_dark);
@@ -380,14 +403,16 @@ img{
 }
     
 #col_xl img{
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
+    width: 100%;
+}
+
+#terza_riga{
+    height: 150px;
 }
 
 #img_stars{
     background-image: url(../img/stars.svg);
-    height: 100px;
+    height: 45px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -395,8 +420,15 @@ img{
 #img_stars h2{
     text-align: center;
     color: var(--text_dark);
-    font-size: 44px;
+    font-size: 27px;
     font-weight: bold;
+}
+
+#text_action_fourth_block{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #text_action_fourth_block a{
@@ -406,6 +438,77 @@ img{
     text-decoration: none;
     color: white;
     background-color: #8EA1E1;
-    margin-left: 42%;
 }
 /*************** FOOTER ***************/
+#col_40 h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--purple);
+    padding: 35px 80px;
+}
+
+#lingua{
+    padding: 0 80px;
+    color: white;
+}
+
+.barra_social{
+    padding: 20px 60px;
+}
+
+.barra_social img{
+    margin-left: 20px;
+}
+
+#col_40 img{
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+}
+
+#col_40 span{
+    font-size: 30px;
+    margin-left: 20px;
+    vertical-align: super;
+}
+
+.col_25_footer{
+    margin: 40px 0;
+}
+
+.col_25_footer h6{
+    font-size: 15px;
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.col_25_footer a{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+    display: block;
+}
+
+#container_col_100{
+    position: relative;
+}
+
+#img_con_100{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+#registrati{
+    position: absolute;
+    font-size: 14px;
+    top: 52px;
+    right: 0px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    background-color: var(--purple);
+}
